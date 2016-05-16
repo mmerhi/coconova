@@ -6,9 +6,9 @@ http.createServer(function(req, res) {
   res.write('Hello Node.js!<br>');
   if ('host' in req.headers) {
     var host = req.headers['host'];
-    res.write('Vhost is ' + host.split(':')[0]+'<br>');
+    res.write('Vhost is ' + host.split(':')[0]+'<br><br><br>');
   } else {
-    res.write('No vhost specified<br>');
+    res.write('No vhost specified<br><br>');
   }
   res.end('<!DOCTYPE html><html><meta charset="utf-8"><title>It works' +
           "</title><b>It works!</b><br /><br />This is the server's " +
