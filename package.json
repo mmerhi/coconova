@@ -1,0 +1,18 @@
+{
+  "name": "coconova",
+  "version": "1.0.0",
+  "description": "Single page app -- product listings for coconova.net",
+  "main": "server.js",
+  "scripts": {
+    "test": "testAppServer.js"
+  },
+  "author": "mmerhi",
+  "license": "ISC",
+  "repository": "git-codecommit.us-east-1.amazonaws.com/v1/repos/[domain]",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.17"
+  }
+}
