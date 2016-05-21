@@ -87,4 +87,9 @@ fabric.properties
 out
 *.idea*
 gen
-# Created by .ignore support plugin (hsz.mobi)
+# Created by .ignore support plugin (hsz.mobi)### Yeoman template
+node_modules/
+bower_components/
+
+build/
+dist/
